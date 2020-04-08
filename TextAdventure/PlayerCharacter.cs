@@ -8,5 +8,7 @@ namespace TextAdventure
     {
         public string Name { get; set; }
         public int Health { get; set; }
+        public int Strength { get; set; }
+        public int Agility { get; set; }
     }
 }

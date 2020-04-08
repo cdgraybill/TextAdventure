@@ -6,7 +6,9 @@ namespace TextAdventure
 {
     class Enemy
     {
-        public string Name { get; set; }
+        public string Name = "Chad";
         public int Health { get; set; }
+        public int Strength = 8;
+        public int Agiligy = 3;
     }
 }
